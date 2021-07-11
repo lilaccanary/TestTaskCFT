@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		834D34F52692F88E00978D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D34F42692F88E00978D42 /* AppDelegate.swift */; };
-		834D34F72692F88E00978D42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D34F62692F88E00978D42 /* SceneDelegate.swift */; };
+		83055B4C2695697000B3C934 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83055B4B2695697000B3C934 /* ImageTableViewCell.swift */; };
+		8324E9752693F53300003DB8 /* UIImage+transforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324E9742693F53300003DB8 /* UIImage+transforms.swift */; };
+		8324E9772693F6C200003DB8 /* UIViewController+tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324E9762693F6C200003DB8 /* UIViewController+tableView.swift */; };
+		8324E9792693F82D00003DB8 /* Array+addItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324E9782693F82D00003DB8 /* Array+addItem.swift */; };
+		8329CD9426998B6500FA2CD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329CD9326998B6500FA2CD7 /* SceneDelegate.swift */; };
+		8329CD9626998B6C00FA2CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329CD9526998B6C00FA2CD7 /* AppDelegate.swift */; };
 		834D34F92692F88E00978D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D34F82692F88E00978D42 /* ViewController.swift */; };
 		834D34FC2692F88E00978D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834D34FA2692F88E00978D42 /* Main.storyboard */; };
-		834D34FF2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 834D34FD2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodeld */; };
-		834D35012692F88F00978D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D35002692F88F00978D42 /* Assets.xcassets */; };
-		834D35042692F88F00978D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834D35022692F88F00978D42 /* LaunchScreen.storyboard */; };
+		8395C245269A99B100321F25 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395C244269A99B100321F25 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83055B4B2695697000B3C934 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		8324E9742693F53300003DB8 /* UIImage+transforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+transforms.swift"; sourceTree = "<group>"; };
+		8324E9762693F6C200003DB8 /* UIViewController+tableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+tableView.swift"; sourceTree = "<group>"; };
+		8324E9782693F82D00003DB8 /* Array+addItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+addItem.swift"; sourceTree = "<group>"; };
+		8329CD9326998B6500FA2CD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8329CD9526998B6C00FA2CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		834D34F12692F88E00978D42 /* Photo Editor for CFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Editor for CFT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		834D34F42692F88E00978D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		834D34F62692F88E00978D42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		834D34F82692F88E00978D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		834D34FB2692F88E00978D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		834D34FE2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photo_Editor_for_CFT.xcdatamodel; sourceTree = "<group>"; };
-		834D35002692F88F00978D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		834D35032692F88F00978D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834D35052692F88F00978D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8395C244269A99B100321F25 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,26 @@
 		834D34F32692F88E00978D42 /* Photo Editor for CFT */ = {
 			isa = PBXGroup;
 			children = (
-				834D34F42692F88E00978D42 /* AppDelegate.swift */,
-				834D34F62692F88E00978D42 /* SceneDelegate.swift */,
 				834D34F82692F88E00978D42 /* ViewController.swift */,
+				8395C244269A99B100321F25 /* Photo.swift */,
+				8329CD9326998B6500FA2CD7 /* SceneDelegate.swift */,
+				8329CD9526998B6C00FA2CD7 /* AppDelegate.swift */,
+				83055B4B2695697000B3C934 /* ImageTableViewCell.swift */,
 				834D34FA2692F88E00978D42 /* Main.storyboard */,
-				834D35002692F88F00978D42 /* Assets.xcassets */,
-				834D35022692F88F00978D42 /* LaunchScreen.storyboard */,
+				83CCD070269407950092A6B8 /* Extentions */,
 				834D35052692F88F00978D42 /* Info.plist */,
-				834D34FD2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodeld */,
 			);
 			path = "Photo Editor for CFT";
+			sourceTree = "<group>";
+		};
+		83CCD070269407950092A6B8 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8324E9782693F82D00003DB8 /* Array+addItem.swift */,
+				8324E9762693F6C200003DB8 /* UIViewController+tableView.swift */,
+				8324E9742693F53300003DB8 /* UIImage+transforms.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +141,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834D35042692F88F00978D42 /* LaunchScreen.storyboard in Resources */,
-				834D35012692F88F00978D42 /* Assets.xcassets in Resources */,
 				834D34FC2692F88E00978D42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8395C245269A99B100321F25 /* Photo.swift in Sources */,
+				8329CD9626998B6C00FA2CD7 /* AppDelegate.swift in Sources */,
 				834D34F92692F88E00978D42 /* ViewController.swift in Sources */,
-				834D34FF2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodeld in Sources */,
-				834D34F52692F88E00978D42 /* AppDelegate.swift in Sources */,
-				834D34F72692F88E00978D42 /* SceneDelegate.swift in Sources */,
+				8329CD9426998B6500FA2CD7 /* SceneDelegate.swift in Sources */,
+				83055B4C2695697000B3C934 /* ImageTableViewCell.swift in Sources */,
+				8324E9772693F6C200003DB8 /* UIViewController+tableView.swift in Sources */,
+				8324E9792693F82D00003DB8 /* Array+addItem.swift in Sources */,
+				8324E9752693F53300003DB8 /* UIImage+transforms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +172,6 @@
 				834D34FB2692F88E00978D42 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		834D35022692F88F00978D42 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				834D35032692F88F00978D42 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,19 +353,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		834D34FD2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				834D34FE2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodel */,
-			);
-			currentVersion = 834D34FE2692F88E00978D42 /* Photo_Editor_for_CFT.xcdatamodel */;
-			path = Photo_Editor_for_CFT.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 834D34E92692F88E00978D42 /* Project object */;
 }
